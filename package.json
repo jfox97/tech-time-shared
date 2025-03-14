@@ -12,5 +12,11 @@
   ],
   "exports": {
     "./data-object": "./dist/data-object"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
   }
 }
