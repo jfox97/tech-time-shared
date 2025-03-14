@@ -1,0 +1,13 @@
+{
+  "name": "tech-time-shared",
+  "version": "1.0.0",
+  "description": "Shared library for tech time project",
+  "author": "Jason Fox",
+  "license": "ISC",
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    "./data-object": "./dist/data-object"
+  }
+}
