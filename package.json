@@ -4,6 +4,9 @@
   "description": "Shared library for tech time project",
   "author": "Jason Fox",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://jasonfoxbamboohr-776178780667.d.codeartifact.us-east-2.amazonaws.com/npm/tech-time/"
+  },
   "files": [
     "./dist"
   ],
