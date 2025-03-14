@@ -11,7 +11,10 @@
     "./dist"
   ],
   "exports": {
-    "./data-object": "./dist/data-object"
+    "./data-object": {
+      "types": "./dist/data-object/index.d.ts",
+      "default": "./dist/data-object/index.js"
+    }
   },
   "scripts": {
     "build": "tsc"
